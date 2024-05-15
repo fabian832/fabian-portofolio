@@ -7,3 +7,12 @@
     background-color: white;
     border-radius: 0 0 10px 10px;
 }
+
+#image-brief{
+    width: 200px;
+    object-fit: cover;
+}
+
+#brief-introduction{
+    width: 50rem;
+}
