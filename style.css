@@ -1,19 +1,30 @@
-#navbar {
-    padding-left: 37%;
-    background-color: white;
+.navbar{
+    background: #fff;
+    border-radius: 4px;
 }
 
-#navbar-parent{
-    background-color: white;
-    border-radius: 0 0 10px 10px;
+.nav-link{
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+.brief-menu{
+    display: flex;
+    justify-content: space-between;
 }
 
 #image-brief{
-    width: 200px;
-    height: 300px;
+    width: 250px;
     object-fit: cover;
+    border-radius: 7px;
+    margin-top: 10%;
 }
 
-#brief-introduction{
-    width: 50rem;
+.exp{
+    padding-top: 12%;
+    margin-right: 50px;
+}
+
+.exp h1{
+    font-weight: bold;
 }

@@ -1,0 +1,19 @@
+#navbar {
+    padding-left: 37%;
+    background-color: white;
+}
+
+#navbar-parent{
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+#image-brief{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#brief-introduction{
+    width: 50rem;
+}
