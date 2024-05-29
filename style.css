@@ -58,13 +58,21 @@
 }
 
 #contact-me h1{
-    margin-bottom: 4%;
+    margin-bottom: 8%;
+    font-weight: bold;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background: black;
+    background: #fff;
+    color: black;
+    border-bottom: 1px solid black;
+    border-radius: 0;
 }
 
 .nav-link{
+    color: black;
+}
+
+.nav-link:hover{
     color: black;
 }
