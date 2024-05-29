@@ -28,3 +28,43 @@
 .exp h1{
     font-weight: bold;
 }
+
+.custom-carousel-controls {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.custom-control-btn {
+    background-color: #007bff;  /* Bootstrap primary color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.custom-control-btn:hover {
+    background-color: #0056b3;  /* Darker shade of primary color */
+}
+
+#contact-me{
+    margin: 5% auto;
+}
+
+#contact-me h1{
+    margin-bottom: 4%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: black;
+}
+
+.nav-link{
+    color: black;
+}
